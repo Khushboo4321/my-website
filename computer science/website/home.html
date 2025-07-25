@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshMoo Dairy</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Times New Roman', Times, serif; /* Added missing semicolon */
+      margin: 0;
+      padding: 0;
+      background-color: #001f3f; /* Navy Blue Background */
+      color: #f9f9f9;
+    }
+
+    h1, h2, h3 {
+      color: #f9f9f9;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* Header */
+    .header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .header .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0059b3;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    /* About Section */
+    .about {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #003366;
+    }
+
+    /* Products Section */
+    .products {
+      padding: 50px 20px;
+      background-color: #00264d;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: #004080;
+      border: 1px solid #0059b3;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card h3 {
+      margin-bottom: 10px;
+    }
+
+    .product-card a {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #0059b3;
+      border-radius: 5px;
+      color: white;
+      font-size: 14px;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 50px 20px;
+      background-color: #003366;
+      text-align: center;
+    }
+
+    .contact form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .contact input, .contact textarea, .contact button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #0059b3;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      background-color: #004080;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #001f3f;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>FreshMoo Dairy</h1>
+    <p>Pure. Fresh. Local. Straight from our farm to your home.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </header>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We at FreshMoo Dairy are committed to delivering the highest quality dairy products straight from our farms to your home. Our mission is to provide fresh, pure, and natural dairy products that are free from preservatives and additives.</p>
+    <p>Our cows are raised in a clean and healthy environment, ensuring that every product we offer is packed with essential nutrients and unmatched taste. From fresh milk to creamy butter, rich ghee, and delicious paneer, we take pride in offering a wide range of dairy products that cater to your daily needs.</p>
+    <p>With a focus on sustainability and hygiene, we ensure that our products are processed and packaged within hours of milking to retain their natural goodness. Whether it's your morning tea, a wholesome breakfast, or a festive dessert, FreshMoo Dairy is here to make every moment special.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <h3>Fresh Milk</h3>
+        <p>Rich, creamy milk directly from our farms.</p>
+        <a href="milk.html">View Details</a>
+      </div>
+      <div class="product-card">
+        <h3>Curd</h3>
+        <p>Natural, thick curd made from whole milk.</p>
+        <a href="curd.html">View Details</a>
+      </div>
+      <div class="product-card">
+        <h3>Ghee</h3>
+        <p>Pure cow ghee using traditional bilona method.</p>
+        <a href="ghee.html">View Details</a>
+      </div>
+      <div class="product-card">
+        <h3>Butter</h3>
+        <p>Fresh, creamy butter made from pure milk.</p>
+        <a href="butter.html">View Details</a>
+      </div>
+      <div class="product-card">
+        <h3>Cheese</h3>
+        <p>Delicious, organic cheese perfect for all recipes.</p>
+        <a href="cheese.html">View Details</a>
+      </div>
+      <div class="product-card">
+        <h3>Paneer</h3>
+        <p>Soft and fresh paneer for your favorite dishes.</p>
+        <a href="paneer.html">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshMoo Dairy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
