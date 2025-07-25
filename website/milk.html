@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Milk - FreshMoo Dairy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d6eaf8; /* Light Blue Background */
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 50px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .details {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .details h1, .details h2 {
+      color: #004080;
+    }
+
+    .details ul {
+      text-align: left;
+      padding: 0;
+      list-style: none;
+    }
+
+    .details ul li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .details ul li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+      color: #27ae60;
+    }
+
+    .details table {
+      margin: 20px 0;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .details table th, .details table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .details table th {
+      background-color: #004080;
+      color: #fff;
+    }
+
+    .details a {
+      color: #004080;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .details a:hover {
+      text-decoration: underline;
+    }
+
+    .image {
+      flex: 1;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Details Section -->
+    <div class="details">
+      <h1>Fresh Cow Milk</h1>
+      <p>Pure, natural, and farm-fresh milk delivered straight from our local farms. No preservatives. No additives. Just healthy goodness in every drop.</p>
+
+      <h2>Why Choose FreshMoo Milk?</h2>
+      <ul>
+        <li>High in calcium for stronger bones</li>
+        <li>Boosts immunity naturally</li>
+        <li>Aids muscle development</li>
+        <li>Easy to digest</li>
+        <li>Naturally sweet and creamy taste</li>
+      </ul>
+
+      <h2>Specifications</h2>
+      <table>
+        <tr>
+          <th>Attribute</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>Full cream cow milk</td>
+        </tr>
+        <tr>
+          <td>Fat content</td>
+          <td>3.5% – 4.5%</td>
+        </tr>
+        <tr>
+          <td>Shelf Life</td>
+          <td>48 hours (refrigerated)</td>
+        </tr>
+        <tr>
+          <td>Packaging</td>
+          <td>500ml, 1L glass/pouch</td>
+        </tr>
+        <tr>
+          <td>Delivery Time</td>
+          <td>Within 6 hours of milking</td>
+        </tr>
+      </table>
+
+      <h2>Usage of Milk</h2>
+      <ul>
+        <li>Perfect for your morning tea or coffee</li>
+        <li>Ideal for making cereals, smoothies, and milkshakes</li>
+        <li>Used in baking cakes, cookies, and desserts</li>
+        <li>Essential for preparing homemade sweets like kheer and paneer</li>
+        <li>Great for cooking creamy sauces and soups</li>
+        <li>Enjoyed as a refreshing glass of milk on its own</li>
+      </ul>
+
+      <h2>Taglines</h2>
+      <p>“From our farm to your fridge – Pure, Fresh, Trusted.”</p>
+      <p>“Goodness you can taste. Freshness you can trust.”</p>
+      <p>“Healthy begins with FreshMoo.”</p>
+
+      <a href="home.html">Back to Home</a>
+    </div>
+
+    <!-- Image Section -->
+    <div class="image">
+      <img src="milk-packet.jpg" alt="Milk Packet">
+      <img src="milk-box.jpg" alt="Milk Box">
+    </div>
+  </div>
+</body>
+</html>
